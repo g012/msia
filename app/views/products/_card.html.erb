@@ -1,0 +1,8 @@
+<article class="product-card">
+  <%= link_to product_path(product), class: "product-image product-image-#{product.illustration}" do %>
+    <%= product_visual(product) %>
+    <% if product.vegetarian == true %><span class="product-badge"><%= t('product.vegetarian') %></span><% end %>
+    <% unless product.photo.attached? %><span class="illustration-label"><%= t('common.illustration') %></span><% end %>
+  <% end %>
+  <div class="product-card-body"><p class="product-brand"><%= product.brand.name %><span><%= product.categories.first&.name %></span></p><h3><%= link_to product.display_name, product_path(product) %></h3><p class="product-summary"><%= product.translation&.short_description %></p><p class="product-size"><%= product.pack_size.presence || t('common.unknown') %></p><div class="card-bottom"><%= interest_button(product) %><%= link_to '↗', product_path(product), class: 'card-arrow', aria: { label: t('common.details') + ' ' + product.display_name } %></div></div>
+</article>

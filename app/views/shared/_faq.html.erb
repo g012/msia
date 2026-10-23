@@ -1,0 +1,1 @@
+<% t('faq.items').first(local_assigns[:limit] || 20).each_with_index do |item, i| %><details class="faq-item" <%= 'open' if i == 0 %>><summary><%= item[:q] %><span aria-hidden="true">+</span></summary><p><%= item[:a] %></p></details><% end %>

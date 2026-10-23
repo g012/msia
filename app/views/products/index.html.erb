@@ -1,0 +1,19 @@
+<% @title = t('nav.products') + ' — MSIA' %>
+<section class="page-heading shell"><p class="eyebrow"><%= t('catalogue.eyebrow') %></p><h1><%= t('catalogue.title') %></h1><p><%= t('catalogue.body') %></p></section>
+<section class="shell catalogue-section">
+  <%= form_with url: products_path, method: :get, class: 'filters', data: { turbo_frame: 'catalogue' } do |f| %>
+    <%= hidden_field_tag :ref, @attribution_token %>
+    <div><%= label_tag :category, I18n.locale == :fr ? 'Catégorie' : 'Category' %><%= select_tag :category, options_from_collection_for_select(@categories, :slug, :name, params[:category]), include_blank: t('catalogue.all') %></div>
+    <div><%= label_tag :brand, t('product.brand') %><%= select_tag :brand, options_from_collection_for_select(@brands, :id, :name, params[:brand]), include_blank: t('catalogue.brand') %></div>
+    <div><%= label_tag :diet, I18n.locale == :fr ? 'Profil alimentaire' : 'Dietary profile' %><%= select_tag :diet, options_for_select([[t('catalogue.vegetarian'), 'vegetarian'], [t('catalogue.animal'), 'animal']], params[:diet]), include_blank: t('catalogue.diet') %></div>
+    <div><%= label_tag :spicy, I18n.locale == :fr ? 'Piment' : 'Spice' %><%= select_tag :spicy, options_for_select([[t('catalogue.spicy'), 'yes'], [t('catalogue.mild'), 'no']], params[:spicy]), include_blank: t('catalogue.spice') %></div>
+    <%= f.submit t('catalogue.filter'), class: 'button' %>
+  <% end %>
+  <p class="filter-note"><%= t('catalogue.verified_note') %></p>
+  <%= turbo_frame_tag 'catalogue', data: { turbo_action: 'advance' } do %>
+    <div class="catalogue-count"><span><%= @products.size %> <%= t('catalogue.result') %></span><%= link_to t('catalogue.reset'), products_path %></div>
+    <% if @products.empty? %><div class="empty-state"><h2><%= t('catalogue.no_results') %></h2><%= link_to t('catalogue.reset'), products_path, class: 'text-link' %></div><% end %>
+    <div class="product-grid" data-turbo-frame="_top"><%= render partial: 'card', collection: @products, as: :product %></div>
+  <% end %>
+</section>
+<%= render 'shared/waitlist_cta' %>

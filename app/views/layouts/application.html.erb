@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="<%= I18n.locale %>">
+  <head>
+    <title><%= page_title %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="<%= @description.presence || t('seo.description') %>">
+    <meta name="theme-color" content="#183e35">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link rel="canonical" href="<%= canonical_url %>">
+    <% %w[fr en].each do |locale| %>
+      <link rel="alternate" hreflang="<%= locale %>" href="<%= ENV.fetch('APP_URL', 'http://localhost:3000') + localized_switch_path(locale).split('?').first %>">
+    <% end %>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<%= page_title %>">
+    <meta property="og:description" content="<%= @description.presence || t('seo.description') %>">
+    <meta property="og:url" content="<%= canonical_url %>">
+    <meta property="og:site_name" content="MSIA">
+    <meta property="og:locale" content="<%= I18n.locale == :fr ? 'fr_FR' : 'en_GB' %>">
+    <meta property="og:image" content="<%= ENV.fetch('APP_URL', 'http://localhost:3000') + asset_path('kopitiam-table.webp') %>">
+    <link rel="icon" href="<%= asset_path('mark.svg') %>" type="image/svg+xml">
+    <%= stylesheet_link_tag "tailwind", "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+  <body>
+    <a href="#main" class="skip-link"><%= I18n.locale == :fr ? 'Aller au contenu' : 'Skip to content' %></a>
+    <div class="announcement"><span class="status-dot"></span><%= t('common.soon') %><span class="announcement-separator"> · </span><span>France & Europe</span></div>
+    <header class="site-header" data-controller="menu">
+      <div class="shell header-row">
+        <%= link_to localized_root_path, class: 'wordmark', aria: { label: 'MSIA — ' + t('brand_tagline') } do %>msia<span class="wordmark-dot">.</span><% end %>
+        <nav class="desktop-nav" aria-label="<%= I18n.locale == :fr ? 'Navigation principale' : 'Main navigation' %>">
+          <%= link_to t('nav.products'), products_path, class: ('active' if controller_name == 'products') %>
+          <%= link_to t('nav.kopitiam'), landing_path(topic: 'kopitiam') %>
+          <%= link_to t('nav.story'), page_path(page: 'about') %>
+        </nav>
+        <div class="header-actions">
+          <div class="language-switch" aria-label="<%= t('nav.language') %>">
+            <% %w[fr en].each do |locale| %><%= link_to locale.upcase, localized_switch_path(locale), lang: locale, class: ('selected' if I18n.locale.to_s == locale), aria: { current: ('true' if I18n.locale.to_s == locale) } %><% end %>
+          </div>
+          <%= link_to new_waitlist_signup_path, class: 'button button-small header-join' do %><%= t('nav.join') %> <%= arrow %><% end %>
+          <button type="button" class="menu-toggle" data-menu-target="button" data-action="menu#toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="<%= t('nav.menu') %>"><span></span><span></span></button>
+        </div>
+      </div>
+      <nav id="mobile-menu" class="mobile-nav shell" data-menu-target="panel" hidden aria-label="Mobile">
+        <%= link_to t('nav.products'), products_path %><%= link_to t('nav.kopitiam'), landing_path(topic: 'kopitiam') %><%= link_to t('nav.story'), page_path(page: 'about') %><%= link_to t('nav.join'), new_waitlist_signup_path %>
+      </nav>
+    </header>
+    <% flash.each do |type, message| %><div class="shell flash" role="status"><%= message %></div><% end %>
+    <main id="main"><%= yield %></main>
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div class="footer-brand"><%= link_to 'msia.', localized_root_path, class: 'wordmark' %><p><%= t('footer.intro') %></p><span class="tiny"><%= t('footer.made') %></span></div>
+        <div><h2><%= t('footer.explore') %></h2><%= link_to t('nav.products'), products_path %><%= link_to 'Pan Mee', landing_path(topic: 'pan-mee') %><%= link_to 'Kolo Mee', landing_path(topic: 'kolo-mee') %><%= link_to t('nav.kopitiam'), landing_path(topic: 'kopitiam') %></div>
+        <div><h2><%= t('footer.project') %></h2><%= link_to t('nav.story'), page_path(page: 'about') %><%= link_to t('common.faq'), page_path(page: 'faq') %><%= link_to t('common.privacy'), page_path(page: 'privacy') %><%= link_to t('common.legal'), page_path(page: 'legal') %></div>
+        <div class="footer-note"><span class="eyebrow">MALAYSIA → FRANCE</span><p><%= t('footer.notice') %></p><%= link_to t('common.join') + ' ↗', new_waitlist_signup_path, class: 'text-link' %></div>
+      </div>
+      <div class="shell footer-bottom"><span>© <%= Date.current.year %> <%= t('footer.copyright') %></span><%= link_to I18n.locale == :fr ? 'Épicerie malaisienne en France' : 'Malaysian grocery in France', landing_path(topic: 'epicerie-malaisienne') %></div>
+    </footer>
+  </body>
+</html>

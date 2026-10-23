@@ -1,0 +1,467 @@
+[
+  {
+    "official_id": 16,
+    "name": "Fragrance Oil Hock Kee Pan Mee (Vegetarian) 传统福气板面 (素)",
+    "slug": "pan-mee-fragrance-oil",
+    "category": "pan-mee",
+    "illustration": "noodles",
+    "vegetarian": true,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": null,
+    "net_weight": null,
+    "preparation": null,
+    "official_source_url": "https://www.hockkeegroup.com/product?id=16",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=16",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20251011/4685c5e5ff6ead6a86f836e6a0098025.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Manufacturer product title explicitly says Vegetarian; not a reviewed ingredient declaration",
+    "translations": {
+      "fr": {
+        "name": "Pan Mee · Fragrance Oil",
+        "short_description": "Le Pan Mee en version Fragrance Oil, nommé végétarien dans le catalogue Hock Kee.",
+        "description": "Le Pan Mee en version Fragrance Oil, nommé végétarien dans le catalogue Hock Kee. La fiche officielle présente la gamme de nouilles comme séchée à l’air. Ses indications sont communes à plusieurs variantes : nous attendons la fiche technique de cette référence.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Pan Mee · Fragrance Oil",
+        "short_description": "The Fragrance Oil Pan Mee variant, labelled vegetarian in Hock Kee’s catalogue.",
+        "description": "The Fragrance Oil Pan Mee variant, labelled vegetarian in Hock Kee’s catalogue. The official record describes the noodle series as air-dried. Its notes are shared across several variants; a product-specific technical sheet is still needed.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 19,
+    "name": "Fragrance Oil Hock Kee Kolo Mee Noodles (Vegetarian) 传统福气哥罗面 (素)",
+    "slug": "kolo-mee-fragrance-oil",
+    "category": "kolo-mee",
+    "illustration": "noodles",
+    "vegetarian": true,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": null,
+    "net_weight": null,
+    "preparation": null,
+    "official_source_url": "https://www.hockkeegroup.com/product?id=19",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=19",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20251011/0acc2c820d404c67054a2edf9a494d11.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Manufacturer product title explicitly says Vegetarian; not a reviewed ingredient declaration",
+    "translations": {
+      "fr": {
+        "name": "Kolo Mee · Fragrance Oil",
+        "short_description": "La variante Fragrance Oil de la gamme Kolo Mee, indiquée végétarienne par Hock Kee.",
+        "description": "La variante Fragrance Oil de la gamme Kolo Mee, indiquée végétarienne par Hock Kee. La fiche officielle présente la gamme de nouilles comme séchée à l’air. Ses indications sont communes à plusieurs variantes : nous attendons la fiche technique de cette référence.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Kolo Mee · Fragrance Oil",
+        "short_description": "The Fragrance Oil Kolo Mee variant, labelled vegetarian by Hock Kee.",
+        "description": "The Fragrance Oil Kolo Mee variant, labelled vegetarian by Hock Kee. The official record describes the noodle series as air-dried. Its notes are shared across several variants; a product-specific technical sheet is still needed.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 11,
+    "name": "Hock Kee White Coffee 福气白咖啡 (10 SACHETS / BOX)",
+    "slug": "white-coffee",
+    "category": "coffee",
+    "illustration": "coffee",
+    "vegetarian": null,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": "10 sachets × 40 g · 400 g",
+    "net_weight": "400 g",
+    "preparation": "Empty one sachet into a cup, add 180 ml hot water, then stir. Manufacturer instructions; check the final pack before use.",
+    "official_source_url": "https://www.hockkeegroup.com/product?id=11",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=11",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20260322/4a6414609b032bf5aab275da93ea0ad6.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Pack format from explicit Serving text (API weight not used as net weight)",
+    "translations": {
+      "fr": {
+        "name": "White Coffee",
+        "short_description": "Un white coffee en sachets, proposé par Hock Kee pour retrouver le café du kopitiam.",
+        "description": "Un white coffee en sachets, proposé par Hock Kee pour retrouver le café du kopitiam. La référence et le format sont publiés sur le site du fabricant. Les informations de composition et d’importation restent à vérifier.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "White Coffee",
+        "short_description": "A sachet white coffee from Hock Kee’s kopitiam-inspired drinks range.",
+        "description": "A sachet white coffee from Hock Kee’s kopitiam-inspired drinks range. The reference and format are published on the manufacturer’s site. Composition and import information still need verification.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 15,
+    "name": "Chilli Radish Hock Kee Pan Mee (Vegetarian) 菜脯香辣福气板面 (素)",
+    "slug": "pan-mee-chilli-radish",
+    "category": "pan-mee",
+    "illustration": "noodles",
+    "vegetarian": true,
+    "spicy": true,
+    "contains_animal_products": null,
+    "pack_size": null,
+    "net_weight": null,
+    "preparation": null,
+    "official_source_url": "https://www.hockkeegroup.com/product?id=15",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=15",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20251011/1d4b7f6eb90b105a8942d59e3523f98b.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Manufacturer product title explicitly says Vegetarian; not a reviewed ingredient declaration; Official variant name explicitly says Chilli / Mala; no numeric heat rating",
+    "translations": {
+      "fr": {
+        "name": "Pan Mee · Chilli Radish",
+        "short_description": "Une variante au radis conservé pimenté, nommée végétarienne dans le catalogue officiel.",
+        "description": "Une variante au radis conservé pimenté, nommée végétarienne dans le catalogue officiel. La fiche officielle présente la gamme de nouilles comme séchée à l’air. Ses indications sont communes à plusieurs variantes : nous attendons la fiche technique de cette référence.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Pan Mee · Chilli Radish",
+        "short_description": "A spicy preserved-radish variant, labelled vegetarian in the official catalogue.",
+        "description": "A spicy preserved-radish variant, labelled vegetarian in the official catalogue. The official record describes the noodle series as air-dried. Its notes are shared across several variants; a product-specific technical sheet is still needed.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 18,
+    "name": "Mala Hock Kee Pan Mee (Vegetarian) 香麻辣福气板面 (素)",
+    "slug": "pan-mee-mala",
+    "category": "pan-mee",
+    "illustration": "noodles",
+    "vegetarian": true,
+    "spicy": true,
+    "contains_animal_products": null,
+    "pack_size": null,
+    "net_weight": null,
+    "preparation": null,
+    "official_source_url": "https://www.hockkeegroup.com/product?id=18",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=18",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20251011/dbfc06cfbeeaf5eacbf7d38487e61924.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Manufacturer product title explicitly says Vegetarian; not a reviewed ingredient declaration; Official variant name explicitly says Chilli / Mala; no numeric heat rating",
+    "translations": {
+      "fr": {
+        "name": "Pan Mee · Mala",
+        "short_description": "La version Mala de Hock Kee, indiquée végétarienne dans son titre officiel.",
+        "description": "La version Mala de Hock Kee, indiquée végétarienne dans son titre officiel. La fiche officielle présente la gamme de nouilles comme séchée à l’air. Ses indications sont communes à plusieurs variantes : nous attendons la fiche technique de cette référence.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Pan Mee · Mala",
+        "short_description": "Hock Kee’s Mala variant, labelled vegetarian in its official product name.",
+        "description": "Hock Kee’s Mala variant, labelled vegetarian in its official product name. The official record describes the noodle series as air-dried. Its notes are shared across several variants; a product-specific technical sheet is still needed.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 17,
+    "name": "Double Flavour Hock Kee Pan Mee 双味福气板面干捞拌面条",
+    "slug": "pan-mee-double-flavour",
+    "category": "pan-mee",
+    "illustration": "noodles",
+    "vegetarian": null,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": null,
+    "net_weight": null,
+    "preparation": null,
+    "official_source_url": "https://www.hockkeegroup.com/product?id=17",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=17",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20251011/87eaba71a4c0d88f605a61a3df0d0c6c.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue",
+    "translations": {
+      "fr": {
+        "name": "Pan Mee · Double Flavour",
+        "short_description": "Le Pan Mee Double Flavour du catalogue Hock Kee. Composition à obtenir avant toute vente.",
+        "description": "Le Pan Mee Double Flavour du catalogue Hock Kee. Composition à obtenir avant toute vente. La fiche officielle présente la gamme de nouilles comme séchée à l’air. Ses indications sont communes à plusieurs variantes : nous attendons la fiche technique de cette référence.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Pan Mee · Double Flavour",
+        "short_description": "The Double Flavour Pan Mee reference in Hock Kee’s catalogue. Full composition still needed.",
+        "description": "The Double Flavour Pan Mee reference in Hock Kee’s catalogue. Full composition still needed. The official record describes the noodle series as air-dried. Its notes are shared across several variants; a product-specific technical sheet is still needed.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 21,
+    "name": "Chilli Radish Hock Kee Kolo Mee Noodles(Vegetarian) 香辣菜脯福气哥罗面",
+    "slug": "kolo-mee-chilli-radish",
+    "category": "kolo-mee",
+    "illustration": "noodles",
+    "vegetarian": true,
+    "spicy": true,
+    "contains_animal_products": null,
+    "pack_size": null,
+    "net_weight": null,
+    "preparation": null,
+    "official_source_url": "https://www.hockkeegroup.com/product?id=21",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=21",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20251011/0e060c7c3bff9f32fb125a4d1ae10fa3.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Manufacturer product title explicitly says Vegetarian; not a reviewed ingredient declaration; Official variant name explicitly says Chilli / Mala; no numeric heat rating",
+    "translations": {
+      "fr": {
+        "name": "Kolo Mee · Chilli Radish",
+        "short_description": "La version Chilli Radish du Kolo Mee, indiquée végétarienne par le fabricant.",
+        "description": "La version Chilli Radish du Kolo Mee, indiquée végétarienne par le fabricant. La fiche officielle présente la gamme de nouilles comme séchée à l’air. Ses indications sont communes à plusieurs variantes : nous attendons la fiche technique de cette référence.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Kolo Mee · Chilli Radish",
+        "short_description": "The Chilli Radish Kolo Mee variant, labelled vegetarian by the manufacturer.",
+        "description": "The Chilli Radish Kolo Mee variant, labelled vegetarian by the manufacturer. The official record describes the noodle series as air-dried. Its notes are shared across several variants; a product-specific technical sheet is still needed.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 20,
+    "name": "Double Flavour Hock Kee Kolo Mee Noodles 双味福气哥罗面",
+    "slug": "kolo-mee-double-flavour",
+    "category": "kolo-mee",
+    "illustration": "noodles",
+    "vegetarian": null,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": null,
+    "net_weight": null,
+    "preparation": null,
+    "official_source_url": "https://www.hockkeegroup.com/product?id=20",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=20",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20251011/a73fce37034f7578c14e217bb5efe790.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue",
+    "translations": {
+      "fr": {
+        "name": "Kolo Mee · Double Flavour",
+        "short_description": "Le Kolo Mee Double Flavour de Hock Kee. Les ingrédients précis restent à vérifier.",
+        "description": "Le Kolo Mee Double Flavour de Hock Kee. Les ingrédients précis restent à vérifier. La fiche officielle présente la gamme de nouilles comme séchée à l’air. Ses indications sont communes à plusieurs variantes : nous attendons la fiche technique de cette référence.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Kolo Mee · Double Flavour",
+        "short_description": "Hock Kee’s Double Flavour Kolo Mee. Product-specific ingredients still need checking.",
+        "description": "Hock Kee’s Double Flavour Kolo Mee. Product-specific ingredients still need checking. The official record describes the noodle series as air-dried. Its notes are shared across several variants; a product-specific technical sheet is still needed.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 24,
+    "name": "Clear Soup Pan Mee\t福氣家传清汤板面",
+    "slug": "pan-mee-clear-soup",
+    "category": "pan-mee",
+    "illustration": "noodles",
+    "vegetarian": null,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": null,
+    "net_weight": null,
+    "preparation": null,
+    "official_source_url": "https://www.hockkeegroup.com/product?id=24",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=24",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20251011/e3fc3aea4a54034c91afaaca775cc8e5.png",
+    "confirmed_facts": "Product identity and variant in official catalogue",
+    "translations": {
+      "fr": {
+        "name": "Pan Mee · Clear Soup",
+        "short_description": "Une référence Pan Mee en soupe claire, publiée au catalogue officiel Hock Kee.",
+        "description": "Une référence Pan Mee en soupe claire, publiée au catalogue officiel Hock Kee. La fiche officielle présente la gamme de nouilles comme séchée à l’air. Ses indications sont communes à plusieurs variantes : nous attendons la fiche technique de cette référence.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Pan Mee · Clear Soup",
+        "short_description": "A clear-soup Pan Mee reference listed in Hock Kee’s official catalogue.",
+        "description": "A clear-soup Pan Mee reference listed in Hock Kee’s official catalogue. The official record describes the noodle series as air-dried. Its notes are shared across several variants; a product-specific technical sheet is still needed.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 22,
+    "name": "Hock Kee Traditional Soup Noodle 福气家传清汤拉面",
+    "slug": "traditional-soup-noodle",
+    "category": "noodles",
+    "illustration": "noodles",
+    "vegetarian": null,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": null,
+    "net_weight": null,
+    "preparation": null,
+    "official_source_url": "https://www.hockkeegroup.com/product?id=22",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=22",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20251011/2b1651b22518a481d16bf8785cc25f77.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue",
+    "translations": {
+      "fr": {
+        "name": "Traditional Soup Noodle",
+        "short_description": "Des nouilles en soupe de la gamme Hock Kee. Composition et allergènes non publiés dans la fiche consultée.",
+        "description": "Des nouilles en soupe de la gamme Hock Kee. Composition et allergènes non publiés dans la fiche consultée. La fiche officielle présente la gamme de nouilles comme séchée à l’air. Ses indications sont communes à plusieurs variantes : nous attendons la fiche technique de cette référence.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Traditional Soup Noodle",
+        "short_description": "A soup noodle reference from Hock Kee. Full ingredients and allergens are absent from the record reviewed.",
+        "description": "A soup noodle reference from Hock Kee. Full ingredients and allergens are absent from the record reviewed. The official record describes the noodle series as air-dried. Its notes are shared across several variants; a product-specific technical sheet is still needed.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 32,
+    "name": "Hock Kee White Coffee 福气白咖啡 2 IN 1 (10 SACHETS / BOX)",
+    "slug": "white-coffee-2-in-1",
+    "category": "coffee",
+    "illustration": "coffee",
+    "vegetarian": null,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": "10 sachets × 25 g · 250 g",
+    "net_weight": "250 g",
+    "preparation": "Empty one sachet into a cup, add 180 ml hot water, then stir. Manufacturer instructions; check the final pack before use.",
+    "official_source_url": "https://www.hockkeegroup.com/product?id=32",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=32",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20260322/6e394eb8704175a50ce2451769503b40.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Pack format from explicit Serving text (API weight not used as net weight)",
+    "translations": {
+      "fr": {
+        "name": "White Coffee · 2 in 1",
+        "short_description": "Le white coffee 2 in 1 de Hock Kee, en boîte de dix sachets.",
+        "description": "Le white coffee 2 in 1 de Hock Kee, en boîte de dix sachets. La référence et le format sont publiés sur le site du fabricant. Les informations de composition et d’importation restent à vérifier.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "White Coffee · 2 in 1",
+        "short_description": "Hock Kee’s 2-in-1 white coffee, in a box of ten sachets.",
+        "description": "Hock Kee’s 2-in-1 white coffee, in a box of ten sachets. The reference and format are published on the manufacturer’s site. Composition and import information still need verification.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 12,
+    "name": "Hock Kee Coffee（Original) 福气原味咖啡 (10 SACHETS / BOX)",
+    "slug": "original-coffee",
+    "category": "coffee",
+    "illustration": "coffee",
+    "vegetarian": null,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": "10 sachets × 15 g · 150 g",
+    "net_weight": "150 g",
+    "preparation": "Infuse one coffee bag in 200 ml freshly boiled water for 3–4 minutes. Gently press and stir, then remove the bag. Manufacturer instructions; check the final pack before use.",
+    "official_source_url": "https://www.hockkeegroup.com/product?id=12",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=12",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20260322/4713db398a299a09c583b92ea6ae22f0.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Pack format from explicit Serving text (API weight not used as net weight)",
+    "translations": {
+      "fr": {
+        "name": "Original Coffee",
+        "short_description": "Un café à infuser. Hock Kee décrit un mélange Arabica, Robusta et Liberica.",
+        "description": "Un café à infuser. Hock Kee décrit un mélange Arabica, Robusta et Liberica. La référence et le format sont publiés sur le site du fabricant. Les informations de composition et d’importation restent à vérifier.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Original Coffee",
+        "short_description": "A brew-in-bag coffee. Hock Kee describes a blend of Arabica, Robusta and Liberica.",
+        "description": "A brew-in-bag coffee. Hock Kee describes a blend of Arabica, Robusta and Liberica. The reference and format are published on the manufacturer’s site. Composition and import information still need verification.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 10,
+    "name": "Hock Kee White Milk Tea 福气乡味奶茶 (10 SACHETS / BOX)",
+    "slug": "white-milk-tea",
+    "category": "tea",
+    "illustration": "tea",
+    "vegetarian": null,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": "10 sachets × 40 g · 400 g",
+    "net_weight": "400 g",
+    "preparation": "Empty one sachet into a cup, add 200 ml hot water, then stir. Manufacturer instructions; check the final pack before use.",
+    "official_source_url": "https://www.hockkeegroup.com/product?id=10",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=10",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20260322/b4b03969c9b2bb171f608839d8c13b99.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Pack format from explicit Serving text (API weight not used as net weight)",
+    "translations": {
+      "fr": {
+        "name": "White Milk Tea",
+        "short_description": "Le milk tea en sachets de Hock Kee, inspiré des boissons de kopitiam.",
+        "description": "Le milk tea en sachets de Hock Kee, inspiré des boissons de kopitiam. La référence et le format sont publiés sur le site du fabricant. Les informations de composition et d’importation restent à vérifier.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "White Milk Tea",
+        "short_description": "Hock Kee’s sachet milk tea, inspired by kopitiam drinks.",
+        "description": "Hock Kee’s sachet milk tea, inspired by kopitiam drinks. The reference and format are published on the manufacturer’s site. Composition and import information still need verification.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 14,
+    "name": "Gula Melaka Milk Tea 马六甲椰糖奶茶 (10 SACHETS / BOX)",
+    "slug": "gula-melaka-milk-tea",
+    "category": "tea",
+    "illustration": "tea",
+    "vegetarian": null,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": "10 sachets × 36 g · 360 g",
+    "net_weight": "360 g",
+    "preparation": "Empty one sachet into a cup, add 160 ml hot water, then stir. Manufacturer instructions; check the final pack before use.",
+    "official_source_url": "https://www.hockkeegroup.com/product?id=14",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=14",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20260322/9f2d9a021614382f399836134d4fa0f4.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Pack format from explicit Serving text (API weight not used as net weight)",
+    "translations": {
+      "fr": {
+        "name": "Gula Melaka Milk Tea",
+        "short_description": "Une variante de milk tea au Gula Melaka, proposée en dix sachets.",
+        "description": "Une variante de milk tea au Gula Melaka, proposée en dix sachets. La référence et le format sont publiés sur le site du fabricant. Les informations de composition et d’importation restent à vérifier.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Gula Melaka Milk Tea",
+        "short_description": "A Gula Melaka milk tea variant, offered in ten sachets.",
+        "description": "A Gula Melaka milk tea variant, offered in ten sachets. The reference and format are published on the manufacturer’s site. Composition and import information still need verification.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  },
+  {
+    "official_id": 25,
+    "name": "Pineapple Tart",
+    "slug": "pineapple-tart",
+    "category": "snacks",
+    "illustration": "snacks",
+    "vegetarian": null,
+    "spicy": null,
+    "contains_animal_products": null,
+    "pack_size": "10 individual packs · 320 g",
+    "net_weight": "320 g",
+    "preparation": null,
+    "official_source_url": "https://www.hockkeegroup.com/product?id=25",
+    "source_api_url": "https://server.hockkeekopitiam.com/api/v1/goods/getGoodsInfo?id=25",
+    "image_url": "https://server.hockkeekopitiam.com/uploads/20260322/b15a3ae62408fcb7fc031dde30b61e71.webp",
+    "confirmed_facts": "Product identity and variant in official catalogue; Serving states 320 g and 10 individually packed portions; ingredient/allergen declaration not supplied",
+    "translations": {
+      "fr": {
+        "name": "Pineapple Tart",
+        "short_description": "Des tartelettes à l’ananas, proposées en dix portions emballées individuellement.",
+        "description": "Des tartelettes à l’ananas, proposées en dix portions emballées individuellement. La référence et le format sont publiés sur le site du fabricant. Les informations de composition et d’importation restent à vérifier.",
+        "origin": "Référence de la marque malaisienne Hock Kee Kopitiam. Le pays de fabrication et l’identité exacte du fabricant de cette référence restent à confirmer."
+      },
+      "en": {
+        "name": "Pineapple Tart",
+        "short_description": "Pineapple tarts, offered in ten individually wrapped portions.",
+        "description": "Pineapple tarts, offered in ten individually wrapped portions.The reference and format are published on the manufacturer’s site. Composition and import information still need verification.",
+        "origin": "A reference from Malaysian brand Hock Kee Kopitiam. The country of manufacture and exact manufacturer for this reference still need confirmation."
+      }
+    }
+  }
+]

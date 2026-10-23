@@ -1,0 +1,38 @@
+<section class="hero shell">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="little-sun">✳︎</span> <%= t('home.eyebrow') %></p>
+    <h1><%= t('home.title_a') %><br><em><%= t('home.title_b') %></em></h1>
+    <p class="hero-intro"><%= t('home.intro') %></p>
+    <div class="hero-cta"><%= link_to new_waitlist_signup_path, class: 'button' do %><%= t('home.cta') %> <%= arrow %><% end %><%= link_to t('common.discover') + ' ↓', '#selection', class: 'text-link' %></div>
+    <p class="hero-note"><span class="status-dot"></span><%= t('home.note') %></p>
+  </div>
+  <figure class="hero-photo">
+    <%= image_tag 'kopitiam-table.webp', srcset: "#{asset_path('kopitiam-table-small.webp')} 780w, #{asset_path('kopitiam-table.webp')} 1536w", sizes: '(max-width: 760px) 100vw, 52vw', alt: I18n.locale == :fr ? 'Une scène de table inspirée du kopitiam : bol de nouilles et café. Illustration créée par IA.' : 'An AI-created kopitiam table scene with a bowl of noodles and coffee.', width: 1536, height: 1024, fetchpriority: 'high' %>
+    <div class="photo-label"><span>SEDAP!</span><small><%= t('home.photo_tag') %></small></div>
+    <figcaption><%= t('common.photo_caption') %></figcaption>
+  </figure>
+</section>
+<div class="values-strip"><div class="shell"><% t('home.marquee').each do |value| %><span><span class="little-sun">✳︎</span><%= value %></span><% end %></div></div>
+<section id="selection" class="section shell">
+  <div class="section-heading"><div><p class="eyebrow"><%= t('home.collection_eyebrow') %></p><h2><%= t('home.collection_title') %></h2></div><%= link_to t('common.all_products') + ' ↗', products_path, class: 'text-link' %></div>
+  <p class="section-intro"><%= t('home.collection_body') %></p>
+  <div class="product-grid"><%= render partial: 'products/card', collection: @products, as: :product %></div>
+</section>
+<section class="kopitiam-section">
+  <div class="shell kopitiam-grid">
+    <div class="kopitiam-art" aria-hidden="true"><span class="kopitiam-stamp">KOPI<br>TIAM<span>COFFEE · FOOD · COMPANY</span></span><%= image_tag 'coffee.svg', alt: '', width: 600, height: 480, loading: 'lazy' %><span class="art-caption">A little taste of home.</span></div>
+    <div class="kopitiam-copy"><p class="eyebrow"><%= t('home.story_eyebrow') %></p><h2><%= t('home.story_title') %></h2><p><%= t('home.story_body') %></p><p><%= t('home.story_end') %></p><%= link_to t('home.story_link') + ' ↗', landing_path(topic: 'kopitiam'), class: 'text-link' %></div>
+  </div>
+</section>
+<section class="section shell">
+  <div class="center-heading"><p class="eyebrow"><%= t('home.difference_eyebrow') %></p><h2><%= t('home.difference_title') %></h2><p><%= t('home.difference_intro') %></p></div>
+  <div class="difference-grid"><% t('home.differences').each_with_index do |item, index| %><article><span class="line-icon" aria-hidden="true"><%= ['✳︎', '◎', '↗'][index] %></span><h3><%= item[:title] %></h3><p><%= item[:body] %></p></article><% end %></div>
+</section>
+<section class="how-section"><div class="shell"><div class="section-heading"><div><p class="eyebrow"><%= t('home.how_eyebrow') %></p><h2><%= t('home.how_title') %></h2></div></div><div class="steps"><% t('home.steps').each_with_index do |step, i| %><article><span class="step-number">0<%= i + 1 %></span><h3><%= step[:title] %></h3><p><%= step[:body] %></p></article><% end %></div></div></section>
+<section class="section shell popularity-section">
+  <div class="section-heading"><div><p class="eyebrow"><%= t('home.popular_eyebrow') %></p><h2><%= t('home.popular_title') %></h2></div></div><p class="section-intro"><%= t('home.popular_body') %></p>
+  <% if @popularity.empty? %><p class="empty-state"><%= t('home.popular_empty') %></p><% else %><div class="popularity-list"><% Product.visible.with_catalogue.where(id: @popularity.sort_by { |_, count| -count }.first(4).map(&:first)).sort_by { |p| -@popularity[p.id] }.each_with_index do |product, i| %><%= link_to product_path(product), class: 'popularity-row' do %><span class="rank">0<%= i+1 %></span><span><%= product.display_name %></span><span class="vote-count"><%= @popularity[product.id] %> <small><%= t('home.votes') %></small></span><%= arrow %><% end %><% end %></div><% end %>
+  <p class="eyebrow category-note"><%= t('home.category_note') %></p><div class="category-chips"><% @categories.each do |category| %><%= link_to [category.name, (@category_popularity[category.id] if @category_popularity[category.id].to_i.positive?), '↗'].compact.join(' · '), new_waitlist_signup_path(category: category.id), class: 'category-chip' %><% end %></div><p class="muted tiny"><%= t('home.future_categories') %></p>
+</section>
+<%= render 'shared/waitlist_cta' %>
+<section class="section shell faq-section"><div><p class="eyebrow">FAQ</p><h2><%= t('home.faq_title') %></h2><%= link_to t('common.faq') + ' ↗', page_path(page: 'faq'), class: 'text-link' %></div><div><%= render 'shared/faq', limit: 4 %></div></section>

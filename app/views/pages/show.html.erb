@@ -1,0 +1,10 @@
+<% @title = t("#{@page}.title") + ' — MSIA' %>
+<section class="shell narrow section prose-page">
+<% case @page %>
+<% when 'about' %><p class="eyebrow"><%= t('about.eyebrow') %></p><h1><%= t('about.title') %></h1><p class="lead"><%= t('about.intro') %></p><h2><%= t('about.heading') %></h2><p><%= t('about.body') %></p><h2><%= t('about.second_heading') %></h2><p><%= t('about.second_body') %></p><%= link_to t('about.link') + ' ↗', 'https://www.hockkeegroup.com/', class: 'text-link', rel: 'noopener noreferrer', target: '_blank' %>
+<% when 'faq' %><p class="eyebrow">FAQ</p><h1><%= t('faq.title') %></h1><p class="lead"><%= t('faq.intro') %></p><%= render 'shared/faq' %>
+<% when 'privacy' %><p class="eyebrow">MSIA</p><h1><%= t('privacy.title') %></h1><p class="lead"><%= t('privacy.intro') %></p><p><strong><%= t('privacy.controller') %> :</strong> <%= ENV['LEGAL_NAME'].presence || t('privacy.pending') %><br><strong><%= t('privacy.contact') %> :</strong> <%= ENV['PRIVACY_CONTACT'].presence || t('privacy.pending') %></p><% t('privacy.sections').each do |item| %><h2><%= item[:title] %></h2><p><%= item[:body] %></p><% end %><p><%= ENV['PROCESSOR_DISCLOSURE'].presence || t('privacy.pending') %></p><%= link_to 'CNIL ↗', 'https://www.cnil.fr/fr/les-droits-pour-maitriser-vos-donnees-personnelles', class: 'text-link', target: '_blank', rel: 'noopener noreferrer' %>
+<% when 'legal' %><p class="eyebrow">MSIA</p><h1><%= t('legal.title') %></h1><p class="lead"><%= t('legal.intro') %></p><p><%= t('legal.body') %></p><dl class="legal-fields"><% { editor: 'LEGAL_NAME', address: 'LEGAL_ADDRESS', registration: 'LEGAL_REGISTRATION', director: 'PUBLICATION_DIRECTOR', host: 'HOSTING_PROVIDER', contact: 'PUBLIC_CONTACT' }.each do |key, env| %><dt><%= t("legal.fields.#{key}") %></dt><dd><%= ENV[env].presence || t('legal.missing') %></dd><% end %></dl><p><%= t('legal.independent') %></p>
+<% end %>
+</section>
+<%= render 'shared/waitlist_cta' if @page.in?(%w[about faq]) %>

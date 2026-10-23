@@ -1,0 +1,15 @@
+<%= t('mail.hello') %>
+
+<%= t('mail.body') %>
+
+<%= t('mail.confirm') %>: <%= confirmation_url(locale: @signup.locale, token: @signup.confirmation_token) %>
+<%= t('mail.expires') %>
+
+<%= t('mail.selected') %>:
+<% @signup.products.each do |product| %>- <%= product.translation(@signup.locale)&.name || product.name %>
+<% end %><% @signup.categories.each do |category| %>- <%= category.name %>
+<% end %>
+<%= t('mail.next') %>
+
+<%= t('mail.preferences') %>: <%= preferences_url(locale: @signup.locale, token: @signup.management_token) %>
+<%= t('mail.unsubscribe') %>: <%= unsubscribe_url(locale: @signup.locale, token: @signup.unsubscribe_token) %>

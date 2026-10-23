@@ -1,0 +1,9 @@
+<%= form_with model: @signup, url: preferences_path(token: token), method: :patch, class: 'preferences-form' do |f| %>
+  <%= render 'shared/errors', record: @signup %>
+  <div class="two-fields"><div class="form-field"><%= f.label :first_name, t('waitlist.name') + ' (' + t('common.optional') + ')' %><%= f.text_field :first_name, autocomplete: 'given-name', maxlength: 100 %></div><div class="form-field"><%= f.label :postcode, t('waitlist.postcode') + ' (' + t('common.optional') + ')' %><%= f.text_field :postcode, autocomplete: 'postal-code', maxlength: 100 %></div></div>
+  <fieldset><legend><%= t('waitlist.favourites') %></legend><%= hidden_field_tag 'product_ids[]', '' %><div class="preference-options"><% @products.each do |product| %><label class="check-option"><%= check_box_tag 'product_ids[]', product.id, @signup.product_ids.include?(product.id), id: "fav_#{product.id}" %><span><%= product.display_name %></span></label><% end %></div></fieldset>
+  <fieldset><legend><%= t('waitlist.categories') %></legend><%= hidden_field_tag 'category_ids[]', '' %><div class="preference-options"><% @categories.each do |category| %><label class="check-option"><%= check_box_tag 'category_ids[]', category.id, @signup.category_ids.include?(category.id), id: "cat_#{category.id}" %><span><%= category.name %></span></label><% end %></div></fieldset>
+  <div class="form-field"><%= f.label :connection_to_malaysia, t('waitlist.connection') %><%= f.select :connection_to_malaysia, WaitlistSignup::CONNECTIONS.map { |key| [t("waitlist.connections.#{key}"), key] }, include_blank: '—' %></div>
+  <div class="form-field"><%= f.label :import_wish, t('waitlist.wish') %><%= f.text_area :import_wish, rows: 3, maxlength: 2000, placeholder: t('waitlist.wish_placeholder') %></div>
+  <%= f.submit t('common.save'), class: 'button' %>
+<% end %>

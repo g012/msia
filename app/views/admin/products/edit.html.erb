@@ -1,0 +1,1 @@
+<div class="admin-toolbar"><h1>Edit product</h1><%= button_to 'Delete product', admin_product_path(@product), method: :delete, class: 'danger-button', data: { turbo_confirm: 'Delete this product and its interest records permanently?' } %></div><%= render 'form' %>

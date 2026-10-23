@@ -1,0 +1,4 @@
+<% @title = t('waitlist.thank_title') + ' — MSIA' %>
+<section class="shell thank-you"><span class="thank-you-icon" aria-hidden="true">✳︎</span><p class="eyebrow">MERCI · THANK YOU · TERIMA KASIH</p><h1><%= t('waitlist.thank_title') %></h1><p class="lead"><%= t('waitlist.thank_body') %></p><p class="tiny muted"><%= t('waitlist.thank_note') %></p>
+<% if @signup %><div class="preferences-panel"><h2><%= t('waitlist.optional_title') %></h2><p><%= t('waitlist.optional_body') %></p><%= render 'subscriptions/preferences_form', token: @preference_token %></div><% end %>
+<%= link_to t('common.discover') + ' ↗', products_path, class: 'text-link' %></section>

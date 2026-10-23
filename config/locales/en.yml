@@ -1,0 +1,343 @@
+{
+  "en": {
+    "brand_tagline": "A little Malaysia, closer to home.",
+    "nav": {
+      "products": "The collection",
+      "story": "Our project",
+      "kopitiam": "Kopitiam culture",
+      "join": "Join the first arrivals",
+      "menu": "Open navigation",
+      "language": "Change language"
+    },
+    "seo": {
+      "title": "MSIA — A little Malaysia, closer to home",
+      "description": "Discover Pan Mee, Kolo Mee and Malaysian white coffee. Help choose our first imports for France. Join the waitlist for this independent project."
+    },
+    "common": {
+      "soon": "A taste of Malaysia is coming",
+      "discover": "Explore the collection",
+      "join": "Keep me in the loop",
+      "all_products": "The full collection",
+      "details": "Discover",
+      "unknown": "To be confirmed with the manufacturer",
+      "source": "Official source",
+      "optional": "optional",
+      "back": "Back to the collection",
+      "save": "Save preferences",
+      "illustration": "Original illustration · product photo to come",
+      "photo_caption": "AI-created serving suggestion. Does not depict a product in the collection.",
+      "not_for_sale": "Under consideration · not for sale yet",
+      "read_more": "Find out more",
+      "privacy": "Privacy",
+      "legal": "Legal notice",
+      "faq": "Frequently asked questions",
+      "required": "required"
+    },
+    "home": {
+      "eyebrow": "FROM MALAYSIA TO YOUR TABLE — COMING SOON",
+      "title_a": "Real Malaysian",
+      "title_b": "flavours.",
+      "intro": "From a comforting bowl of noodles to your first kopi of the day. Discover Malaysian specialities that are hard to find in Europe, and help us choose what comes first.",
+      "cta": "Choose my future favourites",
+      "note": "France first. Then, we hope, more of Europe.",
+      "photo_tag": "The kopitiam feeling, at home.",
+      "marquee": [
+        "Thoughtfully selected",
+        "Flavours worth discovering",
+        "Your favourites shape our first import"
+      ],
+      "collection_eyebrow": "THE FIRST COLLECTION",
+      "collection_title": "A little taste of what’s to come.",
+      "collection_body": "We’re starting by exploring Hock Kee Kopitiam’s catalogue. Tell us what catches your eye: your interest helps shape our first import.",
+      "story_eyebrow": "MORE THAN A COFFEE SHOP",
+      "story_title": "At the kopitiam, there’s time.",
+      "story_body": "A coffee, a table, a conversation. A kopitiam is a neighbourhood meeting place where Malaysia’s cultures and flavours come together. Drop in for a kopi. Stay for a bowl of noodles.",
+      "story_end": "We’d like to bring a little of that feeling to your everyday.",
+      "story_link": "Discover kopitiam culture",
+      "difference_title": "A smaller selection. A richer discovery.",
+      "difference_intro": "Malaysian specialities, chosen with curiosity and transparency.",
+      "differences": [
+        {
+          "title": "A distinctive identity",
+          "body": "Pan Mee, Kolo Mee, white coffee: Malaysian references with a story to discover."
+        },
+        {
+          "title": "Sources before promises",
+          "body": "Our product notes use manufacturer information. Anything still unknown is clearly marked."
+        },
+        {
+          "title": "A collection we shape together",
+          "body": "Your favourites help us prioritise the products and categories to investigate."
+        }
+      ],
+      "how_eyebrow": "EVERY JOURNEY STARTS SOMEWHERE",
+      "how_title": "From your wish list to the first arrivals.",
+      "steps": [
+        {
+          "title": "You discover",
+          "body": "Explore the products and tell us which ones interest you."
+        },
+        {
+          "title": "We do the groundwork",
+          "body": "We investigate demand, suppliers and the conditions for importing."
+        },
+        {
+          "title": "You hear first",
+          "body": "If the project launches, we’ll let you know when the first products are available."
+        }
+      ],
+      "popular_eyebrow": "YOU HELP CHOOSE",
+      "popular_title": "What would you like to try?",
+      "popular_body": "Real interest to shape a first collection. Each product counts once per subscriber.",
+      "popular_empty": "Our story starts here. Be among the first to choose.",
+      "votes": "expressions of interest",
+      "category_note": "And looking a little further ahead…",
+      "future_categories": "Kaya, teh tarik, sauces, biscuits: share your wishes, even where no product is selected yet.",
+      "waitlist_eyebrow": "BE PART OF THE FIRST ARRIVALS",
+      "waitlist_title": "Next stop: your kitchen.",
+      "waitlist_body": "An email, a few favourites, and you’re part of the journey. We’ll let you know about the launch and the first available products.",
+      "waitlist_small": "No commitment. Unsubscribe at any time.",
+      "faq_title": "Before we set off…",
+      "difference_eyebrow": "THE MSIA SPIRIT"
+    },
+    "catalogue": {
+      "eyebrow": "A NOTEBOOK OF DISCOVERIES",
+      "title": "Good finds. A little closer to home.",
+      "body": "A collection in the making. No sales or prices just yet: simply products to discover and favourites to share.",
+      "all": "All categories",
+      "brand": "All brands",
+      "diet": "All dietary profiles",
+      "vegetarian": "Vegetarian · manufacturer labelled",
+      "animal": "Animal ingredients · confirmed",
+      "spice": "All spice levels",
+      "spicy": "Spicy · confirmed",
+      "mild": "Non-spicy · confirmed",
+      "filter": "Apply filters",
+      "reset": "Reset",
+      "no_results": "No products match these verified criteria.",
+      "result": "products to discover",
+      "verified_note": "Filters include confirmed attributes only. Unknown does not mean absent."
+    },
+    "product": {
+      "interest": "I want to try this",
+      "saved": "Already in your favourites",
+      "brand": "Brand",
+      "description": "Something to discover",
+      "origin": "Origin & story",
+      "facts": "What we know",
+      "ingredients": "Ingredients",
+      "allergens": "Allergens",
+      "nutrition": "Nutrition",
+      "preparation": "Preparation",
+      "pack_size": "Pack size",
+      "net_weight": "Net weight",
+      "shelf_life": "Shelf life",
+      "manufacturer": "Manufacturer",
+      "country_of_origin": "Country of manufacture",
+      "sources": "Our sources, openly shared",
+      "availability": "Availability in Europe",
+      "availability_body": "This product is being researched. No arrival date, import approval or availability for sale has been announced.",
+      "available_body": "This product has been configured as available. This site only collects interest; contact the project for details.",
+      "status": "Research status",
+      "dietary_note": "The vegetarian label comes from the manufacturer’s product title. Full ingredients and allergens still need checking. It does not mean allergen-free or vegan.",
+      "unreviewed": "Unverified informational translation. Review is required before use as regulated food information.",
+      "original": "Manufacturer information in its original language.",
+      "halal": "Halal status",
+      "halal_unknown": "Not verified for this product",
+      "vegetarian": "Vegetarian according to manufacturer",
+      "spicy": "Spicy according to manufacturer",
+      "source_unknowns": "Full ingredients, allergens, shelf life and import documentation are still needed.",
+      "eu_states": {
+        "unknown": "Not verified",
+        "investigating": "Under investigation",
+        "documentation_received": "Documents received · review needed",
+        "approved_for_import": "Approved for import by administrator"
+      }
+    },
+    "waitlist": {
+      "eyebrow": "THE FIRST ARRIVALS START WITH YOU",
+      "title": "Your favourites shape the collection.",
+      "body": "Leave your email and country. Then, if you like, tell us what you’d most love to see arrive.",
+      "email": "Your email",
+      "email_placeholder": "you@example.com",
+      "country": "Your country",
+      "consent": "I agree to receive emails about the launch and availability of these products.",
+      "consent_detail": "No unrelated newsletter. Unsubscribe at any time.",
+      "submit": "Join the first arrivals",
+      "privacy_note": "Your data helps manage this list and understand demand.",
+      "interest_saved": "Your interest has been saved. Add your email to hear when it arrives.",
+      "favourites": "Your favourite products",
+      "categories": "Your favourite categories",
+      "optional_title": "A little more about your favourites",
+      "optional_body": "Completely optional, and very helpful in building the right collection.",
+      "name": "First name",
+      "postcode": "Postcode",
+      "connection": "Your connection to Malaysia",
+      "connections": {
+        "lived": "I grew up or lived in Malaysia",
+        "visited": "I have visited Malaysia",
+        "curious": "I simply love Malaysian food"
+      },
+      "wish": "What would you most like us to import?",
+      "wish_placeholder": "Something you miss? A flavour you’d love to find?",
+      "thank_title": "You’re part of the journey.",
+      "thank_body": "If this is your first signup, a confirmation email is on its way. Follow its link to confirm your interest. If you already subscribed, your existing preferences are kept.",
+      "thank_note": "No email? Check your spam folder. Signing up again does not automatically resend an email.",
+      "confirm_title": "Confirm your interest",
+      "confirm_body": "One last click to receive news about the launch and product availability.",
+      "confirm_button": "Confirm my signup",
+      "confirmed_title": "Your email is confirmed.",
+      "confirmed_body": "Thank you. Your favourites will help shape our first arrivals.",
+      "preferences_saved": "Thank you. Your preferences have been saved.",
+      "preferences_title": "Your favourites, in your own time.",
+      "unsubscribe_title": "Leave the waitlist?",
+      "unsubscribe_body": "You’ll stop receiving launch and availability messages. Your preferences will be removed from waitlist statistics.",
+      "unsubscribe_button": "Unsubscribe me",
+      "unsubscribed_title": "You’re unsubscribed.",
+      "unsubscribed_body": "Your request has been recorded. Thank you for sharing part of the journey.",
+      "invalid_link": "This link is invalid or has expired.",
+      "errors": "Please check the highlighted fields.",
+      "honeypot": "Leave this field empty"
+    },
+    "about": {
+      "eyebrow": "THE MSIA PROJECT",
+      "title": "Bringing two tables closer.",
+      "intro": "From a Malaysian kopitiam to a kitchen in France, there are thousands of kilometres. We’re exploring a simple idea: make hard-to-find Malaysian specialities more accessible in Europe.",
+      "heading": "A collection in the making.",
+      "body": "MSIA is a research-stage project, not an established importer. We’re first exploring Hock Kee Kopitiam’s products and potential customers’ preferences. We do not claim an official partnership with the manufacturer.",
+      "second_heading": "Moving forward, transparently.",
+      "second_body": "Before any sales, we need to confirm suppliers, ingredients, import requirements, labelling, prices and logistics. Joining the waitlist expresses interest. It is neither an order nor a promise of delivery.",
+      "link": "Visit Hock Kee’s official website"
+    },
+    "faq": {
+      "title": "Straightforward answers.",
+      "intro": "It’s early days. Here’s what we can tell you today.",
+      "items": [
+        {
+          "q": "When will products be available?",
+          "a": "No date has been announced. We are researching demand, suppliers and import conditions. The waitlist will hear if the project moves towards launch."
+        },
+        {
+          "q": "Where will you ship?",
+          "a": "We aim to start in France, with other EU countries a possible later step. No delivery area has been confirmed yet."
+        },
+        {
+          "q": "Will products be EU compliant?",
+          "a": "Each product must be checked before any sale: composition, labelling, allergens, traceability and import requirements. No product in this initial collection is presented as approved for import."
+        },
+        {
+          "q": "Are the products halal?",
+          "a": "We do not assign a blanket certification to this collection. Product-specific status, certifying body, scope and document validity still need verification."
+        },
+        {
+          "q": "What about allergens?",
+          "a": "Complete lists are not available for all references. A vegetarian label does not mean allergen-free. Do not rely on these discovery pages to decide whether a product is safe for an allergy."
+        },
+        {
+          "q": "Why a waitlist?",
+          "a": "Signups and favourites help us measure real interest, prioritise products and study a coherent first import. Joining is free and carries no obligation."
+        },
+        {
+          "q": "Will prices be similar to Malaysia?",
+          "a": "We have not set prices. Transport, taxes, checks, labelling and distribution can affect the final cost. We do not promise Malaysian retail prices."
+        }
+      ]
+    },
+    "footer": {
+      "intro": "Some flavours to rediscover. Others to meet for the first time. A first collection to shape together.",
+      "explore": "Explore",
+      "project": "The project",
+      "notice": "Independent project at the research stage. No products are currently offered for sale.",
+      "copyright": "MSIA · A little taste of Malaysia.",
+      "made": "For the curious, and for those who miss Malaysia."
+    },
+    "mail": {
+      "subject": "Welcome to MSIA — confirm your interest",
+      "hello": "Welcome to the MSIA journey.",
+      "body": "Thanks for helping us choose Malaysian products to investigate for our first import. Confirm your email to receive launch and product availability news.",
+      "confirm": "Confirm my email",
+      "selected": "Your favourites",
+      "no_selection": "You can choose your favourites at any time.",
+      "next": "We’ll let you know if the first products become available. No date or delivery is guaranteed yet.",
+      "preferences": "Update my preferences",
+      "unsubscribe": "Unsubscribe",
+      "expires": "The confirmation link is valid for 7 days."
+    },
+    "legal": {
+      "title": "Legal notice",
+      "intro": "To be completed before public launch.",
+      "body": "This website introduces a Malaysian food discovery project. No sales are offered.",
+      "fields": {
+        "editor": "Site publisher",
+        "address": "Address",
+        "registration": "Company registration",
+        "director": "Publication director",
+        "host": "Hosting provider",
+        "contact": "Contact"
+      },
+      "missing": "To be supplied by the project owner",
+      "independent": "MSIA is an independent project. Brand names belong to their respective owners. No commercial relationship or distribution authorisation is claimed."
+    },
+    "privacy": {
+      "title": "Your trust. Your data.",
+      "intro": "Draft privacy policy: complete and obtain review before publication · version dated 23 October 2026.",
+      "sections": [
+        {
+          "title": "Why we collect information",
+          "body": "With your consent, we use your email and country to manage the waitlist and tell you about the launch and product availability. Optional preferences help us understand demand. You are not added to any unrelated newsletter."
+        },
+        {
+          "title": "What we store",
+          "body": "Email, country, consent time and version, email confirmation and unsubscribe status. Optionally: first name, postcode, connection to Malaysia, import wishes and favourites. We also store campaign UTM parameters and the landing page where supplied."
+        },
+        {
+          "title": "Audience measurement & cookies",
+          "body": "No Google Analytics, Meta Pixel or advertising tool is installed. We count views per page per day without a visitor identifier, IP address or fingerprint in that measurement. A secure technical cookie keeps your favourites and protects forms. Campaign parameters pass through signed links without a marketing cookie."
+        },
+        {
+          "title": "Who receives data & hosting",
+          "body": "Only the project operator and the technical providers needed for hosting and email delivery access data for these purposes. No list is sold. Providers, hosting locations and any transfer safeguards must be listed here before public launch."
+        },
+        {
+          "title": "Retention",
+          "body": "Unconfirmed signups are deleted after 30 days. Active signups are kept for up to 24 months without renewed consent. Unsubscribed records are deleted after 30 days. Anonymous interest records are removed after 90 days. A maintenance task applies these periods."
+        },
+        {
+          "title": "Your choices & rights",
+          "body": "Withdraw consent through the unsubscribe link in every email, without affecting earlier processing. Request access, correction, deletion or portability through the contact below. You may also complain to the French data protection authority, CNIL."
+        }
+      ],
+      "controller": "Data controller",
+      "contact": "Privacy contact",
+      "pending": "Identity and contact details must be completed before public launch."
+    },
+    "landing": {
+      "epicerie-malaisienne": {
+        "title": "A Malaysian grocery for France, in the making.",
+        "intro": "A collection focused on Malaysia: everyday noodles, kopitiam drinks, and openly documented sources.",
+        "body": "We want to introduce references that are hard to find locally. We’re starting by researching Hock Kee Kopitiam. Every product page separates published facts from unanswered questions. Your interest shapes the collection without placing an order."
+      },
+      "nouilles-malaisiennes": {
+        "title": "Malaysian noodles: a world to discover.",
+        "intro": "Pan Mee, Kolo Mee, soup or sauces to mix: names to know and variations to explore.",
+        "body": "Hock Kee’s catalogue includes several noodle families and seasonings. We use product names and variants published by the manufacturer. Full ingredient and allergen lists are still needed; we never infer packaged ingredients from a traditional recipe."
+      },
+      "pan-mee": {
+        "title": "Pan Mee: one name, several discoveries.",
+        "intro": "Hock Kee lists Fragrance Oil, Chilli Radish, Mala, Double Flavour and Clear Soup Pan Mee.",
+        "body": "These names come from the official catalogue. Some variants are labelled vegetarian; this confirms neither a vegan recipe nor the absence of eggs or other allergens. Explore the pages and tell us which varieties you’d like to see arrive."
+      },
+      "kolo-mee": {
+        "title": "Kolo Mee: choose your first discovery.",
+        "intro": "Three Hock Kee variations to explore: Fragrance Oil, Chilli Radish and Double Flavour.",
+        "body": "We use the manufacturer’s actual references rather than attributing every ingredient of a traditional Kolo Mee dish to these products. Fragrance Oil and Chilli Radish are labelled vegetarian in the catalogue. Full compositions still need checking."
+      },
+      "kopitiam": {
+        "title": "Kopitiam: a taste of shared moments.",
+        "intro": "A kopitiam is a traditional coffee shop, a place to meet over a drink and a meal.",
+        "body": "Hock Kee describes a Nanyang heritage of coffee and familiar food. That welcoming spirit inspires our collection: noodles to prepare at home, white coffee and milk tea. The packaged products researched here are distinct from dishes served in restaurants."
+      }
+    },
+    "landing_eyebrow": "THE MSIA NOTEBOOK"
+  }
+}

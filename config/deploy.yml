@@ -1,0 +1,75 @@
+# Kamal 2 template. Replace example values before first deployment.
+service: msia
+image: YOUR_REGISTRY_USER/msia
+servers:
+  web:
+    hosts:
+      - 203.0.113.10
+  job:
+    hosts:
+      - 203.0.113.10
+    cmd: bundle exec good_job start
+    proxy: false
+    options:
+      no-healthcheck: true
+proxy:
+  ssl: true
+  host: msia.example.com
+  healthcheck:
+    path: /up
+    interval: 3
+    timeout: 5
+registry:
+  username: YOUR_REGISTRY_USER
+  password:
+    - KAMAL_REGISTRY_PASSWORD
+builder:
+  arch: amd64
+ssh:
+  user: root
+env:
+  clear:
+    APP_URL: https://msia.example.com
+    RAILS_MAX_THREADS: 5
+    WEB_CONCURRENCY: 1
+    GOOD_JOB_MAX_THREADS: 3
+    GOOD_JOB_ENABLE_CRON: "true"
+    RAILS_LOG_LEVEL: info
+    LOG_REQUESTS: "0"
+    SMTP_PORT: 587
+  secret:
+    - SECRET_KEY_BASE
+    - DATABASE_URL
+    - ADMIN_USERNAME
+    - ADMIN_PASSWORD
+    - SMTP_HOST
+    - SMTP_USERNAME
+    - SMTP_PASSWORD
+    - MAIL_FROM
+    - LEGAL_NAME
+    - LEGAL_ADDRESS
+    - LEGAL_REGISTRATION
+    - PUBLICATION_DIRECTOR
+    - HOSTING_PROVIDER
+    - PUBLIC_CONTACT
+    - PRIVACY_CONTACT
+    - PROCESSOR_DISCLOSURE
+volumes:
+  - msia_storage:/rails/storage
+asset_path: /rails/public/assets
+aliases:
+  console: app exec --interactive --reuse "bin/rails console"
+  logs: app logs -f
+  migrate: app exec --reuse "bin/rails db:migrate"
+accessories:
+  db:
+    image: postgres:17
+    host: 203.0.113.10
+    env:
+      clear:
+        POSTGRES_USER: msia
+        POSTGRES_DB: msia_production
+      secret:
+        - POSTGRES_PASSWORD
+    directories:
+      - data:/var/lib/postgresql/data

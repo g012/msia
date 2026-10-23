@@ -1,0 +1,1 @@
+<div class="table-scroll"><table><thead><tr><th><%= label %></th><th>Count</th></tr></thead><tbody><% counts.each do |name,count| %><tr><td><%= name.presence || 'Unspecified' %></td><td><%= count %></td></tr><% end %><% if counts.empty? %><tr><td colspan="2">No data yet.</td></tr><% end %></tbody></table></div>

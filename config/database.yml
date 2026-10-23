@@ -1,0 +1,15 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  template: template0
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS", 5) %>
+  url: <%= ENV["DATABASE_URL"] %>
+development:
+  <<: *default
+  database: msia_development
+test:
+  <<: *default
+  database: msia_test
+production:
+  <<: *default
+  database: msia_production

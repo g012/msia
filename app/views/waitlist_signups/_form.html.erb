@@ -1,0 +1,13 @@
+<%= form_with model: @signup, url: waitlist_signups_path, class: 'signup-form' do |f| %>
+  <%= hidden_field_tag :ref, @attribution_token %>
+  <%= render 'shared/errors', record: @signup %>
+  <div class="form-field"><%= f.label :email, t('waitlist.email') %><%= f.email_field :email, required: true, autocomplete: 'email', placeholder: t('waitlist.email_placeholder'), maxlength: 254 %></div>
+  <div class="form-field"><%= f.label :country, t('waitlist.country') %><%= f.select :country, country_options, { selected: @signup.country.presence || 'FR' }, required: true, autocomplete: 'country' %></div>
+  <% @selected_products.each do |id| %><%= hidden_field_tag 'product_ids[]', id if id.positive? %><% end %>
+  <%= hidden_field_tag 'category_ids[]', params[:category] if params[:category].present? %>
+  <div class="honey" aria-hidden="true"><%= label_tag :website, t('waitlist.honeypot') %><%= text_field_tag :website, nil, tabindex: '-1', autocomplete: 'off' %></div>
+  <div class="consent-field"><%= f.check_box :consent, required: true, aria: { describedby: 'consent-detail' } %><%= f.label :consent, t('waitlist.consent') %></div>
+  <p id="consent-detail" class="tiny muted"><%= t('waitlist.consent_detail') %></p>
+  <%= f.submit t('waitlist.submit') + ' ↗', class: 'button full-width', data: { turbo_submits_with: I18n.locale == :fr ? 'Inscription…' : 'Joining…' } %>
+  <p class="tiny muted signup-privacy"><%= t('waitlist.privacy_note') %> <%= link_to t('common.privacy'), page_path(page: 'privacy') %>.</p>
+<% end %>

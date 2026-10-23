@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+bin/rails db:test:prepare
+bin/rails test
+bin/rubocop
+bin/brakeman --no-pager
+bin/rails zeitwerk:check
+SECRET_KEY_BASE_DUMMY=1 RAILS_ENV=production bin/rails assets:precompile
